@@ -27,7 +27,12 @@ io.on('connection', function(socket){
 
     socket.on('send msg', function(msg){
       var fullMsg = {id: id, username: msg.username, text: msg.text};
-      comments.push(fullMsg);
+      if(comments.length > 250){
+        comments = [];
+        comments.push(fullMsg);
+      }else{
+        comments.push(fullMsg);
+      }
       id++;
       io.emit('send msg', comments);
     });
