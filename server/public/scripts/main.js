@@ -60,7 +60,8 @@ var CommentList = React.createClass({
     this.handleScroll();
   },
   handleScroll: function(){
-    ReactDOM.findDOMNode(this.refs.commentList).scrollTop += ReactDOM.findDOMNode(this.refs.commentList).scrollHeight;
+    var cl = ReactDOM.findDOMNode(this.refs.commentList);
+    cl.scrollTop += cl.scrollHeight;
   },
   render: function() {
     var commentNodes = this.props.data.map(function(comment) {
