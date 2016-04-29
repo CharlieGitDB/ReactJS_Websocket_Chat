@@ -3,7 +3,7 @@ Technologies used: ReactJS, BootstrapCSS, Node.js
 
 This is just a fun project I felt like coding up in a day.  If you can't tell from the title this project is just a simple client side powered ReactJS websocket chatroom.
 
-I plan on deploying this to Heroku some time this.
+To view the live version of this visit: https://calm-dusk-17724.herokuapp.com/
 
 To install or edit:
 
