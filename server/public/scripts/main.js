@@ -128,5 +128,3 @@ var Comment = React.createClass({
 });
 
 ReactDOM.render(<Start />, document.getElementById('content'));
-
-// <span dangerouslySetInnerHTML={this.rawMarkup()} />
