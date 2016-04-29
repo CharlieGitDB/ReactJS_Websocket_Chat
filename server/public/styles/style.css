@@ -1,0 +1,43 @@
+body {
+  background: #ccc;
+}
+.centerBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  background: white;
+  border: #eee;
+  border-radius: 5px;
+  padding: 30px;
+  /*width: 332px;*/
+  /*height: 85px;*/
+}
+.usernameForm {
+  text-align: center;
+}
+.btn-margin {
+  margin-left: 10px;
+}
+.commentBox {
+  padding: 20px;
+}
+.commentList {
+  height: 300px;
+  width: 600px;
+  overflow-y: scroll;
+}
+.commentList div:nth-child(odd) {
+  background: #ccc;
+}
+.commentUsername {
+  float: left;
+  font-weight: bold;
+}
+.commentForm {
+  text-align: center;
+}
