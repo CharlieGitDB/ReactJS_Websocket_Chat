@@ -18,7 +18,7 @@ var Start = React.createClass({
   },
   render: function(){
     if(!this.state.shouldHide){
-      return(
+      return (
         <div className="usernameContainer centerBox">
           <form className="usernameForm form-inline" onSubmit={this.handleSubmit}>
             <div className="form-group">
